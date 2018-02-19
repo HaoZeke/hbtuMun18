@@ -11,6 +11,9 @@ import picdisec from '../images/xlargeDISEC.png'
 import picunga from '../images/disecRoom.jpg'
 import agendaPeace from '../images/peaceUN.png'
 import agendaJeru from '../images/jeru.jpg'
+import me from '../images/me.jpg'
+import eb2 from '../images/eb2.jpg'
+import eb3 from '../images/ebP.jpg'
 
 var FontAwesome = require('react-fontawesome');
 
@@ -62,7 +65,7 @@ class Main extends React.Component {
 
         <article id="agendaTB" className={`${this.props.article === 'agendaTB' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Agenda Topic B</h2>
-          <h3>Private Sector Participation in Peacekeeping Operations</h3>
+          <h3>Israel-Palestine Soveriegnity</h3>
           <span className="image main"><img src={agendaJeru} alt="Jerusalem" /></span>
             <p>The borders of Palestine and Israel has commanded the attention of the UN since the organization was founded. The UN General Assembly voted the original partition of the land in November 1947 and the UN deployed its first peacekeeping operation to monitor the ceasefire lines after the war of 1948.</p> 
             <p>Key issues that have plagued the stalled "peace process" include: Israel's occupation, Israeli settlements and settlement-building, the Israeli wall, security for Israelis and Palestinians, shared sovereignty over Jerusalem, and the right of return of 3.7 million stateless Palestinian refugees.</p>
@@ -73,10 +76,46 @@ class Main extends React.Component {
 
         <article id="eb" className={`${this.props.article === 'eb' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Executive Board</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>asdsrcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <div className="flexy">
+
+          <div className="flexyCard">
+            <div className="flexyContent">
+              <h3>Rohit Goswami</h3>
+              <img className="image contact" src={me} alt="Secretary General Rohit Goswami" />
+              <h4>Secretary General</h4>
+              <p>
+                <a className="blank" href="https://github.com/HaoZeke/"><FontAwesome name='github' size='2x'/></a>
+                &nbsp;&nbsp;
+                <a className="blank" href="https://www.facebook.com/HaoZeke"><FontAwesome name='facebook-square' size='2x'/></a>
+                &nbsp;&nbsp;
+                <a className="blank" href="https://www.linkedin.com/in/rohit-goswami-513835a9"><FontAwesome name='linkedin ' size='2x'/></a>
+              </p>
+            </div>
+          </div>
+
+          <div className="flexyCard">
+            <div className="flexyContent">
+              <h3>Shaivya Anand</h3>
+              <img className="image contact" src={eb2} alt="Chairperson" />
+              <h4>Chairperson</h4>
+              <p>
+                <a className="blank" href="https://www.facebook.com/shaivya.anand"><FontAwesome name='facebook-square' size='2x'/></a>
+                &nbsp;&nbsp;
+                <a className="blank" href="https://www.linkedin.com/in/shaivya-anand-a60493104"><FontAwesome name='linkedin ' size='2x'/></a>
+              </p>
+            </div>
+          </div>
+
+          <div className="flexyCard">
+            <div className="flexyContent">
+              <h3>Pranjal Srivastava</h3>
+              <img className="image contact" src={eb3} alt="Vice-Chairperson" />
+              <h4>Vice Chairperson</h4>
+              <p><a className="blank" href="https://www.facebook.com/pranjal1705"><FontAwesome name='facebook-square' size='2x'/></a></p>
+            </div>
+          </div>
+
+          </div>
           {close}
         </article>
 
