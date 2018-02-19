@@ -10,6 +10,7 @@ import pic03 from '../images/pic03.jpg'
 import picdisec from '../images/xlargeDISEC.png'
 import picunga from '../images/disecRoom.jpg'
 import agendaPeace from '../images/peaceUN.png'
+import agendaJeru from '../images/jeru.jpg'
 
 var FontAwesome = require('react-fontawesome');
 
@@ -62,11 +63,11 @@ class Main extends React.Component {
         <article id="agendaTB" className={`${this.props.article === 'agendaTB' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Agenda Topic B</h2>
           <h3>Private Sector Participation in Peacekeeping Operations</h3>
-          <span className="image main"><img src={agendaPeace} alt="Peacekeeper Logo" /></span>
-            <p>The iconic blue emblem of the UN peacekeeping corps has been a beacon of hope since the inception of the United Nations. Disarmament and global prosperity often need a third party armed force to keep peace without being mired in local sentiments. To this end the UN peacekeeping corps have distinguished themseleves in the past. However, like all aspects of the UN, the soldiers are also on loan from various member nations.</p> 
-            <p>The idea of using private military companies (“PMCs”) in UN peace operations gained traction in the mid-1990s, following the UN peacekeeping failures in Somalia and Rwanda, and the comparable peacekeeping successes of a PMC, Executive Outcomes, in Angola and Sierra Leone.</p>
-            <p>Today, the UN is experiencing a surge in peace operations. There are 16 UN peace operations around the world with 122 countries contributing 123, 945 personnel. Qualitative and quantitative deficiencies are being exposed as poorly trained UN peacekeepers, restricted by shortages in manpower and equipment, struggle to fulfill their mandates, particularly in missions such as South Sudan and the Central African Republic.</p>
-            <p>In light of the present scenario, it is imperative to clarify the possible use of PMCs.</p>
+          <span className="image main"><img src={agendaJeru} alt="Jerusalem" /></span>
+            <p>The borders of Palestine and Israel has commanded the attention of the UN since the organization was founded. The UN General Assembly voted the original partition of the land in November 1947 and the UN deployed its first peacekeeping operation to monitor the ceasefire lines after the war of 1948.</p> 
+            <p>Key issues that have plagued the stalled "peace process" include: Israel's occupation, Israeli settlements and settlement-building, the Israeli wall, security for Israelis and Palestinians, shared sovereignty over Jerusalem, and the right of return of 3.7 million stateless Palestinian refugees.</p>
+            <p>The General Assembly has condemened several human rights violations in the past, however recent revelations by certain member states has once again brought the delicate balance into the focus of disruptive forces.</p>
+            <p>The UN must quickly and decisively assert itself in this situation before the member nations get ahead of themselves and jeopardize the tenous peace in that region.</p>
           {close}
         </article>
 
