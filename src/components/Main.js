@@ -9,6 +9,7 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import picdisec from '../images/xlargeDISEC.png'
 import picunga from '../images/disecRoom.jpg'
+import agendaPeace from '../images/peaceUN.png'
 
 var FontAwesome = require('react-fontawesome');
 
@@ -22,7 +23,7 @@ class Main extends React.Component {
 
         <article id="committee" className={`${this.props.article === 'committee' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">GA-DISEC</h2>
-          <span className="image main"><img src={picdisec} alt="" /></span>
+          <span className="image main"><img src={picdisec} alt="United Nations General Assembly " /></span>
           <h3>General Assembly</h3>
           <p>At the center of the UN system is the 193-member General Assembly (GA), comprised of seven
             main committees and various subsidiary and related bodies. The GA serves primarily as a forum
@@ -47,12 +48,25 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="agenda" className={`${this.props.article === 'agenda' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Agenda</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>asdsrcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+        <article id="agendaTA" className={`${this.props.article === 'agendaTA' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Agenda Topic A</h2>
+          <h3>Private Sector Participation in Peacekeeping Operations</h3>
+          <span className="image main"><img src={agendaPeace} alt="Peacekeeper Logo" /></span>
+            <p>The iconic blue emblem of the UN peacekeeping corps has been a beacon of hope since the inception of the United Nations. Disarmament and global prosperity often need a third party armed force to keep peace without being mired in local sentiments. To this end the UN peacekeeping corps have distinguished themseleves in the past. However, like all aspects of the UN, the soldiers are also on loan from various member nations.</p> 
+            <p>The idea of using private military companies (“PMCs”) in UN peace operations gained traction in the mid-1990s, following the UN peacekeeping failures in Somalia and Rwanda, and the comparable peacekeeping successes of a PMC, Executive Outcomes, in Angola and Sierra Leone.</p>
+            <p>Today, the UN is experiencing a surge in peace operations. There are 16 UN peace operations around the world with 122 countries contributing 123, 945 personnel. Qualitative and quantitative deficiencies are being exposed as poorly trained UN peacekeepers, restricted by shortages in manpower and equipment, struggle to fulfill their mandates, particularly in missions such as South Sudan and the Central African Republic.</p>
+            <p>In light of the present scenario, it is imperative to clarify the role of the private sector in such crucial missions.</p>
+          {close}
+        </article>
+
+        <article id="agendaTB" className={`${this.props.article === 'agendaTB' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Agenda Topic B</h2>
+          <h3>Private Sector Participation in Peacekeeping Operations</h3>
+          <span className="image main"><img src={agendaPeace} alt="Peacekeeper Logo" /></span>
+            <p>The iconic blue emblem of the UN peacekeeping corps has been a beacon of hope since the inception of the United Nations. Disarmament and global prosperity often need a third party armed force to keep peace without being mired in local sentiments. To this end the UN peacekeeping corps have distinguished themseleves in the past. However, like all aspects of the UN, the soldiers are also on loan from various member nations.</p> 
+            <p>The idea of using private military companies (“PMCs”) in UN peace operations gained traction in the mid-1990s, following the UN peacekeeping failures in Somalia and Rwanda, and the comparable peacekeeping successes of a PMC, Executive Outcomes, in Angola and Sierra Leone.</p>
+            <p>Today, the UN is experiencing a surge in peace operations. There are 16 UN peace operations around the world with 122 countries contributing 123, 945 personnel. Qualitative and quantitative deficiencies are being exposed as poorly trained UN peacekeepers, restricted by shortages in manpower and equipment, struggle to fulfill their mandates, particularly in missions such as South Sudan and the Central African Republic.</p>
+            <p>In light of the present scenario, it is imperative to clarify the possible use of PMCs.</p>
           {close}
         </article>
 
@@ -74,7 +88,7 @@ class Main extends React.Component {
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
               <h2 className="vertical-timeline-element-title"><a href="https://trello.com/invite/b/J0koi0Zj/d7cfb945631185084eb0c4ba25656111/participant-path">Trello<FontAwesome name='trello'/></a></h2>
-              <h4 className="vertical-timeline-element-subtitle"></h4>
+              <h4 className="vertical-timeline-element-subtitle">Step I</h4>
               <p>
                 Click on the heading (Trello), and join the Participants Path board. You may sign in using Google for alacrity.
               </p>
@@ -83,8 +97,8 @@ class Main extends React.Component {
               className="vertical-timeline-element"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Country Selection <FontAwesome name='globe'/></h3>
+              <h4 className="vertical-timeline-element-subtitle">Step II</h4>
               <p>
                 Countries are being allotted on a first come first served basis. Choose a country of your choice (countries with confirmed delegates are flagged with a red confirmation tag) and leave a comment stating your branch, year and college (if not from HBTU). A moderator will confirm your choice ASAP.
               </p>
@@ -93,8 +107,8 @@ class Main extends React.Component {
               className="vertical-timeline-element"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Information Mining <FontAwesome name='desktop'/></h3>
+              <h4 className="vertical-timeline-element-subtitle">Step III</h4>
               <p>
                 Documents will be uploaded either on Trello itself or here on the website. Participants are advised to check both regularly for the study guide release and the rules.
               </p>
@@ -103,10 +117,10 @@ class Main extends React.Component {
               className="vertical-timeline-element"
               iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
-              <h3 className="vertical-timeline-element-title">Art Director</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <h3 className="vertical-timeline-element-title">Queries <FontAwesome name='question'/></h3>
+              <h4 className="vertical-timeline-element-subtitle">Halp!</h4>
               <p>
-                There is a list on Trello for delegates to ask their queries. 
+                There is a list on Trello for delegates to ask their queries. You may also use the contact form. 
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>
