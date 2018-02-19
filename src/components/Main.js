@@ -129,7 +129,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="POST" action="https://formspree.io/hbtucheme@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -148,7 +148,7 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://m.facebook.com/profile.php?id=1696447607068344&ref=content_filter" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
             <li><a href="https://trello.com/invite/b/J0koi0Zj/d7cfb945631185084eb0c4ba25656111/participant-path" className="icon fa-trello"><span className="label">Trello</span></a></li>
           </ul>
           {close}
