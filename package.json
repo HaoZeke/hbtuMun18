@@ -17,7 +17,8 @@
     "gatsby-transformer-remark": "^1.7.21",
     "gatsby-transformer-sharp": "^1.6.14",
     "lodash": "^4.17.4",
-    "react-count-down": "^1.1.0"
+    "react-count-down": "^1.1.0",
+    "react-vertical-timeline-component": "^2.0.5"
   },
   "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
   "keywords": [
