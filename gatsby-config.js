@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "HBTU MUN 2018",
     author: "Rohit Goswami [HaoZeke]",
-    description: "The second iteration of the well recieved Harcourt Butler Technical University Model United Nations."
+    description: "The second iteration of the well recieved Harcourt Butler Technical University Model United Nations.",
+    siteUrl: `https://hbtumun18.netlify.com`
   },
   pathPrefix: '/',
   plugins: [
@@ -37,6 +38,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`
   ],
 }
