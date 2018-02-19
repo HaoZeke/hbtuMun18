@@ -1,13 +1,19 @@
-# gatsby-starter-dimension
-Gatsby starter based on the Dimension site template, designed by [HTML5 UP](https://html5up.net/dimension). Check out https://hunterchang.com/gatsby-starters/ for more Gatsby starters and templates.
+# HBTU MUN 2018
 
-## Preview
+Just an event I judged and managed on request.
 
-http://gatsby-dimension.surge.sh/
+## Technology
 
-## Installation
+Basically a simple [react](https://reactjs.org/) site. Built using [GatsbyJS](https://www.gatsbyjs.org/) though.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-dimension https://github.com/ChangoMan/gatsby-starter-dimension`
+## Awknoledgements
 
-Run `gatsby develop` in the terminal to start.
+Apart from the tech stack authors, this was bootstrapped via this [gatsby starter](https://github.com/ChangoMan/gatsby-starter-dimension).
+
+## Licenses
+
+The work is derived with attribution to the users.
+
+Additionally, the images of people are **not open source**.
+
+Content is licenced under The Artistic License 2.0.
