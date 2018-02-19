@@ -181,3 +181,20 @@
 	.align-right {
 		text-align: right;
 	}
+
+.vertical-timeline-element-title {
+	color: black;
+}
+
+.vertical-timeline-element-subtitle {
+	color: lighten(black, 10%);
+}
+
+.vertical-timeline-element-content {
+	p {
+		color: black;
+	}
+}
+.vertical-timeline-element-content {
+    border-top: 3px solid #2196f3;
+}

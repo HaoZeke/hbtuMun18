@@ -1,11 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import picdisec from '../images/xlargeDISEC.png'
 import picunga from '../images/disecRoom.jpg'
+
+var FontAwesome = require('react-fontawesome');
 
 class Main extends React.Component {
   render() {
@@ -62,8 +67,49 @@ class Main extends React.Component {
 
         <article id="reg" className={`${this.props.article === 'reg' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Registration</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p> Follow the steps below <b>strictly</b>.</p>
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h2 className="vertical-timeline-element-title"><a href="https://trello.com/invite/b/J0koi0Zj/d7cfb945631185084eb0c4ba25656111/participant-path">Trello<FontAwesome name='trello'/></a></h2>
+              <h4 className="vertical-timeline-element-subtitle"></h4>
+              <p>
+                Click on the heading (Trello), and join the Participants Path board. You may sign in using Google for alacrity.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element"
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Art Director</h3>
+              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <p>
+                Countries are being allotted on a first come first served basis. Choose a country of your choice (countries with confirmed delegates are flagged with a red confirmation tag) and leave a comment stating your branch, year and college (if not from HBTU). A moderator will confirm your choice ASAP.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element"
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Art Director</h3>
+              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <p>
+                Documents will be uploaded either on Trello itself or here on the website. Participants are advised to check both regularly for the study guide release and the rules.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element"
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title">Art Director</h3>
+              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+              <p>
+                There is a list on Trello for delegates to ask their queries. 
+              </p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
           {close}
         </article>
 
@@ -89,7 +135,7 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-trello"><span className="label">Trello</span></a></li>
+            <li><a href="https://trello.com/invite/b/J0koi0Zj/d7cfb945631185084eb0c4ba25656111/participant-path" className="icon fa-trello"><span className="label">Trello</span></a></li>
           </ul>
           {close}
         </article>
