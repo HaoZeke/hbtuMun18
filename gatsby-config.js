@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Dimension by HTML5 UP"
+    title: "HBTU MUN 2018",
+    author: "Rohit Goswami [HaoZeke]",
+    description: "The second iteration of the well recieved Harcourt Butler Technical University Model United Nations."
   },
   pathPrefix: '/',
   plugins: [
