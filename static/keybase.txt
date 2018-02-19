@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/haozeke
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hbtumun18.netlify.com
+  * I am haozeke (https://keybase.io/haozeke) on keybase.
+  * I have a public key with fingerprint 74B1 F67D 8E43 A94A 7554  0768 9CCC E364 02CB 49A6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ed13a74c208e57451702e57550c266f31f877ea9d2786b13e00769e447447d00a",
+      "fingerprint": "74b1f67d8e43a94a755407689ccce36402cb49a6",
+      "host": "keybase.io",
+      "key_id": "9ccce36402cb49a6",
+      "kid": "0101947d2edecf341ec640852c7742ca75d68c479eb56f270b86dfd9621d39c2db840a",
+      "uid": "8ca27cf24cf6c9de4076b171e8004019",
+      "username": "haozeke"
+    },
+    "merkle_root": {
+      "ctime": 1519083174,
+      "hash_meta": "df4cc52f3bdbabcd472e12601f45dbd0ca8fd17fb87bed397494e9001954553c",
+      "seqno": 2125144
+    },
+    "revoke": {
+      "sig_ids": [
+        "3f202c665e0c970fb0bd91d5a81811e55b97240b28de83af396d7948e2ea65700f"
+      ]
+    },
+    "service": {
+      "hostname": "hbtumun18.netlify.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1519083210,
+  "expire_in": 157680000,
+  "prev": "93a56948627e7a9cad7eba4de0bd39eb75572b8cb99e700f48932babd12276d8",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMQGAnicbVMLbBRFGL4WEKkipjSIUl5rCtKWsjs7u7N7AgetCtKmFgpFpOXceWx7
+ufb2uN0rLS2VVC0IJfYBJ5HyCAgilcojTaQRkcpDOEgEhPCwECRGgYgxEQQi6Gwj
+MSZuNtmZzfd/3/d/88+hgX08SQltJ67RxPir2xLi3XVRzxsrFxyvEbBFqwVvjRBk
+vR9WTpnt+IMBKngFUQKixqgkGwgSd6kgqEhIBHyhKCIBqmrKkqkhxAydAqSpWJKZ
+KCJVZxAi/lJRNIRMwQyESlkkHAmEHE6LIJZMFVGNQdnQocG5IK/RdEIIk1UoAoKh
+bqi8sMyy3QpuDhs2ywpY/B/f+Hvt/Q/+kW9R0rk4YJQRU4YSIxylKYAgBAHhglTV
+CEQ6w4pqAiRiTaUm1VUgUVkngGIN9vqO9tJpxACImAASUyU6Za5ZLCGJaaIIuZIL
+tFkkZFQwji4zrMUsyIQlmUIFiwTLmT9iWY6bLXECLkJSJF3UZAlB3p9hl/krmGPw
+QmpCQhRgyphiAxMKEWASUEXJhArFVCSGZlIJmVhDmHGfCOqQ6SI3oEBFkQm3YbOF
+IUvwAgkoEoTcQYRVWtwLF7cDpTw1W/DOF2QT8MhUVWEi0ZFoYhFTXaKKoUmaJDFF
+wToCUMRAo0yTDVPWVYp0qDHADFVBomgKJUtcsUhlgPSSu8f0qH3sRCuiIUnLCjGn
+PGBWZxGrglsLRyzHIla5C3GcsO11A3Kqw27NIob9/7D5cSBE+bTwikoWsQNWiAfG
+kf/NDkhipsCqwoEI8wdchMLHR+SPq8Mq3dmQDUXlnlWAGDJ0YlDEsAEp473K/Nz5
+zCGANYJ1nbkdQU2XAY+dSgAglWr/hqlwUsco5Zw8wpDhRCP8bLsPFvf1JCR5HuuX
+6F4jT9KApx9drsCfgx7qO9ahxKxVSbmfHc+e8Zd2I105VtSV+sHKlOyBE/v/en5R
+FezwrbAntLxuFR94uOuZjtiiGRkXCs9uG+ILf7dp+WLftdVfX3ln5t6prcd/jBXv
+DL7UdjQ7gPuOrjtnOy+Ov9+UMytlXhy1JY/Tfg7CxNTN7QUxX3Rtz7wJsbsXp98J
+tpR1Jm6ND7k0rPbL60s3bpo53l9/+IcDCxvDZ54YePf2lvUj2rdOufN9/uyTwxuG
+ZXxaeCt/7uUbmU0/pb7raehcAWtD/cNPzv8jvn1PKJlWHSl678Ds2LQtlzryar75
+fbq/6LGPvebwovSXt+c6A2L31lztqdjRp9tzYXPhzarBq9NGjZrzy2Vz7dBlcTx5
+1d1Z3i5f+5ScxgdHNquxNbd86489133qqtp5Mbn5dpO/9Vuhvt/10Z37fQm74f0U
+b9msmt9K+uSm3Kw9MalxrKcV5V7Z9SEsGPQmWHxy0EeNb51v7vm82szvViYXnHqw
+0Vm2b2nuiK/S3x9z+mhTWbqdJqS27xHq1m3LPzLy8Zzsp9YuH9e89+Ch7IOe+PqR
+G96O76sruVBbusCTMfb5vOEzz8SjpzuHvuYNdnfNOdqvdcbCNTubPyEFxRV2NLlo
+zMSkjvpna7efm4CrNsz9oqF+4ql7VXN9LSXLeloK+mfkWSPbKoW8FwrOlhzen2ZH
+2Curp02dtLRh9+XB5WlWTn1hV+rf+an1gA==
+=bZsP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/haozeke
+
+==================================================================
