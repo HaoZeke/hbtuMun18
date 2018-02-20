@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension",
-  "description": "Gatsby Starter - Dimension by HTML5 UP",
+  "name": "hbtuMun18",
+  "description": "HBTU MUN 2018 Website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Rohit Goswami [HaoZeke]",
   "dependencies": {
     "gatsby": "^1.9.118",
     "gatsby-image": "^1.0.27",
@@ -23,15 +23,15 @@
     "react-fontawesome": "^1.6.1",
     "react-vertical-timeline-component": "^2.0.5"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-dimension",
+  "homepage": "https://hbtumun18.netlify.com",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "Artistic-2.0",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-dimension.git"
+    "url": "https://github.com/HaoZeke/hbtuMun18.git"
   },
   "scripts": {
     "dev": "gatsby develop",
