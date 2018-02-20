@@ -17,7 +17,7 @@ const EventCountdown = () => (
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <img className="image main" src={munIcon} alt="MUN Logo" />
+            <img className="logo" src={munIcon} alt="MUN Logo" />
         </div>
         <div className="content">
             <div className="inner">
