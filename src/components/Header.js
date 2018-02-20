@@ -21,7 +21,7 @@ const Header = (props) => (
             <div className="inner">
                 <h1>HBTU MUN 2018</h1>
                 <h3> <EventCountdown /> </h3>
-                <p>The <a href="https://hbtumun17.netlify.com">second iteration</a> of the <a href="http://hbtu.ac.in/">Harcourt Butler Technical University</a> Model United Nations. Held in tandem with <a href="www.confluencehbti2k18.wixsite.com/hbtu">Confluence</a>.</p>
+                <p>The <a href="https://hbtumun17.netlify.com">second iteration</a> of the <a href="http://hbtu.ac.in/">Harcourt Butler Technical University</a> Model United Nations. Held in tandem with <a href="https://confluencehbti2k18.wixsite.com/hbtu">Confluence</a>.</p>
             </div>
         </div>
         <nav>
