@@ -6,7 +6,9 @@ Just an event I judged and managed on request.
 
 Basically a simple [react](https://reactjs.org/) site. Built using [GatsbyJS](https://www.gatsbyjs.org/) though.
 
-## Awknoledgements
+Deployed with the excellent [Netlify](https://www.netlify.com/).
+
+## Acknowledgments
 
 Apart from the tech stack authors, this was bootstrapped via this [gatsby starter](https://github.com/ChangoMan/gatsby-starter-dimension).
 
@@ -16,4 +18,4 @@ The work is derived with attribution to the users.
 
 Additionally, the images of people are **not open source**.
 
-Content is licenced under The Artistic License 2.0.
+Content is licensed under The Artistic License 2.0.
