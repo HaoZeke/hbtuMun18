@@ -4,9 +4,6 @@ import Link from 'gatsby-link'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 import picdisec from '../images/xlargeDISEC.png'
 import picunga from '../images/disecRoom.jpg'
 import agendaPeace from '../images/peaceUN.png'

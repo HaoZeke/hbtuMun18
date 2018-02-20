@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/me.jpg'
 
 class BlogIndex extends React.Component {
   render() {
