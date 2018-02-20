@@ -35,7 +35,7 @@ class Main extends React.Component {
             the moral authority of the world community.
           </p>
           <h3>DISEC [First Committee]</h3>
-          <span className="image main"><img src={picunga} alt="" /></span>
+          <span className="image main"><img src={picunga} alt="The DISEC Meeting Room"/></span>
           <h4>History</h4>
             <p>Established to deal with the technological implications of the atomic bomb used against Japan and in
               development by every other major military power of the day, the General Assembly First Committee of
