@@ -1,6 +1,8 @@
 import Countdown from 'react-count-down'
 import React, { Component, PropTypes } from 'react'
 
+import munIcon from '../images/icon.png'
+
 const cb = () => {
   console.log('expired callback')
 }
@@ -15,7 +17,7 @@ const EventCountdown = () => (
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+            <img className="image main" src={munIcon} alt="MUN Logo" />
         </div>
         <div className="content">
             <div className="inner">
