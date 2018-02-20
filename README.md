@@ -1,4 +1,4 @@
-# HBTU MUN 2018
+# HBTU MUN 2018 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://www.paypal.me/HaoZeke/) [![Build Status](https://semaphoreci.com/api/v1/haozeke/hbtumun18/branches/master/badge.svg)](https://semaphoreci.com/haozeke/hbtumun18)
 
 Just an event I judged and managed on request.
 
