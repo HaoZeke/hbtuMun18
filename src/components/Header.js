@@ -7,7 +7,7 @@ const cb = () => {
   console.log('expired callback')
 }
 
-const OPTIONS = { endDate: '23/09/2018 10:55 AM', prefix: 'Left', cb}
+const OPTIONS = { endDate: '13/04/2018 10:55 AM', prefix: 'Left', cb}
 
 const EventCountdown = () => (
   <Countdown options={OPTIONS} />
